@@ -1,0 +1,8 @@
+1. Bits related :- GCC exposes these instructions through the built-in functions 
+__builtin_ctz (count trailing zeros) and __builtin_clz (count leading zeros). These are the 
+most convenient way to find bit indices for C++ programmers in TopCoder. Be warned though: 
+the return value is undefined for an argument of zero.
+
+__builtin_clzl (for long)
+__builtin_clzll (for long long)
+__builtin_popcount -- how many bits are set
