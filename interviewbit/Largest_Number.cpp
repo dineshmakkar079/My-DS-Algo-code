@@ -21,14 +21,6 @@ bool isMoreThan(int lhs,int rhs){
 	return true;
 }
 
-bool isMoreThan(int lhs,int rhs){
-	string l = ""+to_string(lhs);
-	string r = ""+to_string(rhs);
-	if(l+r < r+l)
-		return false;
-	return true;
-}
-
 string Solution::largestNumber(const vector<int> &A) {
 	vector<int> vec(A.size());
 	long long sum= 0;
