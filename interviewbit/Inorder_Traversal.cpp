@@ -33,7 +33,7 @@ using namespace std;
 vector<int> inorderTraversal(TreeNode* A) {
 	stack<TreeNode*> s;
 	vector<int> v;
-	TreeNode* temp = A, *root = A;
+	TreeNode* temp = A;
 	while(temp){
 		s.push(temp);
 		temp = temp->left;

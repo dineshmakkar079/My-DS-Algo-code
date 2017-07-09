@@ -79,7 +79,6 @@ void getPathToNode(stack<TreeNode*>& s,int val, TreeNode* root,bool& found,TreeN
 	}
 	if(!found) getPathToNode(s,val,root->left,found,root);
 	if(!found) getPathToNode(s,val,root->right,found,root);
-	bool is = parent == NULL; 
 	if(found && root ){
 		s.push(root);
 		if(parent) {val = parent->val;} 
