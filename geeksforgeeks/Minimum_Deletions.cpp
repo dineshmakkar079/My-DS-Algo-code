@@ -67,6 +67,7 @@ int main() {
 	        mem[i] = v;
 	    }
 	    // sl = substring length
+	    // First calculating length of longest palindromic subsequence
 	    for(int sl=2;sl<=l;sl++){
 	        for(int i=0;i<l-sl+1;i++){
 	            int j = i+sl-1;
